@@ -1,4 +1,6 @@
 import "./App.css";
+import Header from "./Header";
+import Content from "./Content";
 
 function App() {
   const audience = ["Walid", "Ali", "World"];
@@ -6,9 +8,8 @@ function App() {
   const name = audience[int];
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Hello, {name}!</p>
-      </header>
+      <Header />
+      <Content />
     </div>
   );
 }
