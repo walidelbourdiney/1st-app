@@ -1,5 +1,27 @@
 main {
   background-color: bisque;
   width: 80%;
-  text-align: center;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.item svg {
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(141, 102, 51);
+  color: aliceblue;
+  cursor: pointer;
+}
+.item svg:hover {
+  color: red;
+  outline: none;
 }
