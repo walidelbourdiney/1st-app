@@ -2,6 +2,9 @@ main {
   background-color: bisque;
   width: 80%;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 ul {
