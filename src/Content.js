@@ -13,7 +13,7 @@ const Content = ({ items, handleDelete, handleCheck }) => {
           handleCheck={handleCheck}
         />
       ) : (
-        <Line />
+        <p style={{ textAlign: "center" }}>You have no Tasks</p>
       )}
     </main>
   );
