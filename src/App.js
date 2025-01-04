@@ -22,7 +22,6 @@ function App() {
     },
   ]);
 
-  console.log(items);
   const handleCheck = (id) => {
     const listItems = items.map((item) =>
       item.id === id ? { ...item, checked: !item.checked } : item
