@@ -22,6 +22,7 @@ function App() {
     },
   ]);
 
+  console.log(items);
   const handleCheck = (id) => {
     const listItems = items.map((item) =>
       item.id === id ? { ...item, checked: !item.checked } : item
@@ -43,7 +44,7 @@ function App() {
         handleCheck={handleCheck}
         handleDelete={handleDelete}
       />
-      <Footer />
+      <Footer length={items.length} />
     </div>
   );
 }
